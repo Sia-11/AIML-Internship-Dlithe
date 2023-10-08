@@ -1,7 +1,10 @@
 # Anemia & Thrombocytopenia Prediction
 
+Anemia & Thrombocytopenia Prediction is a Python project that aims to predict whether a patient has anemia and thrombocytopenia based on specific health parameters. This project includes a backend model comparison and a user-friendly frontend using Streamlit.
+
 ## Table of Contents
-- [Description](#description)
+
+- [Overview](#overview)
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
@@ -9,10 +12,9 @@
 - [Model Comparison](#model-comparison)
 - [License](#license)
 
-## Description
-- Anemia & Thrombocytopenia Prediction is a Python project that aims to predict whether a patient has anemia and thrombocytopenia based on specific health parameters. This project includes a backend model comparison and a user-friendly frontend using Streamlit.
+## Overview
 
-- Anemia and thrombocytopenia are critical health conditions that require early detection and intervention. This project utilizes machine learning models to predict the likelihood of these conditions based on specific patient data.
+Anemia and thrombocytopenia are critical health conditions that require early detection and intervention. This project utilizes machine learning models to predict the likelihood of these conditions based on specific patient data.
 
 ## Features
 
@@ -52,7 +54,9 @@ The project structure is organized as follows:
 To use this project, follow these steps:
 
 1. Run the Streamlit app as described in the "Getting Started" section.
+
 2. Input patient data through the web interface.
+
 3. Click the "Predict Anemia" or "Predict Thrombocytopenia" buttons to get predictions.
 
 ## Model Comparison
