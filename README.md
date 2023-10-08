@@ -1,4 +1,3 @@
-
 # Anemia & Thrombocytopenia Prediction
 
 Anemia & Thrombocytopenia Prediction is a Python project that aims to predict whether a patient has anemia and thrombocytopenia based on specific health parameters. This project includes a backend model comparison and a user-friendly frontend using Streamlit.
