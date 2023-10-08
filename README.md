@@ -1,35 +1,72 @@
-# AIML-Internship-Dlithe:
-Anemia & Thrombocytopenia Prediction
 
-Overview
-This project focuses on developing a machine learning-based solution for the prediction of two critical blood disorders: Anemia and Thrombocytopenia. Anemia is characterized by a lower-than-normal level of red blood cells or hemoglobin in the blood, while Thrombocytopenia is a condition with a low platelet count. Early and accurate detection of these disorders is crucial for timely medical intervention.
+# Anemia & Thrombocytopenia Prediction
 
-#Key Features
-Machine Learning Models: The project employs several machine learning models, including Logistic Regression, Random Forest, K-Nearest Neighbors, and Support Vector Machines (SVM), to predict the presence of Anemia and Thrombocytopenia.
+Anemia & Thrombocytopenia Prediction is a Python project that aims to predict whether a patient has anemia and thrombocytopenia based on specific health parameters. This project includes a backend model comparison and a user-friendly frontend using Streamlit.
 
-Data Preprocessing: The dataset used for training and testing the models is preprocessed to remove unnecessary features and ensure data quality.
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Usage](#usage)
+- [Model Comparison](#model-comparison)
+- [Contributing](#contributing)
+- [License](#license)
 
-User-Friendly Interface: The project provides a user-friendly interface for individuals to input their medical data, such as gender, hemoglobin levels, MCH, MHCH, MCV, and platelet count. The models then predict whether the user is likely to have Anemia or Thrombocytopenia.
+## Overview
 
-Model Comparison: The accuracy of each machine learning model is compared to determine the best-fitting model for prediction.
+Anemia and thrombocytopenia are critical health conditions that require early detection and intervention. This project utilizes machine learning models to predict the likelihood of these conditions based on specific patient data.
 
-#Getting Started
-Follow these steps to get started with the project:
+## Features
 
-Clone the Repository: Clone this GitHub repository to your local machine.
+- Predicts the presence of anemia and thrombocytopenia.
+- User-friendly web interface for inputting patient data.
+- Model comparison to identify the best-fitting prediction model.
 
-Install Dependencies: Make sure you have the required Python libraries installed. You can use the provided requirements.txt file to set up your environment.
+## Getting Started
 
-Run the Application: Execute the project using Streamlit. Follow the provided instructions to launch the application and make predictions.
+To get started with this project, follow these steps:
 
-#Usage
-Access the user-friendly interface to input your medical data.
-Predict the likelihood of having Anemia or Thrombocytopenia based on your input.
-Model Comparison
-The project includes a model comparison section that visualizes the accuracy scores of different machine-learning models. It helps users understand the performance of each model for prediction.
+1. Clone the repository to your local machine: git clone https://github.com/Sia-11/AIML-Internship-Dlithe.git
 
-#Contributing
-If you'd like to contribute to this project, please check the Contribution Guidelines for more details.
+2. Set up a virtual environment for the project and install the required packages.
 
-#License
-This project is licensed under the MIT License. See the LICENSE file for more information.
+3. Navigate to the project directory
+
+4. Install the required dependencies using pip
+
+5. Run the Streamlit app:
+streamlit run app.py
+
+6. Use the web interface to input patient data and make predictions.
+
+## Project Structure
+
+The project structure is organized as follows:
+
+- `app.py`: Streamlit app for the frontend.
+- `data.csv`: Sample dataset.
+- `requirements.txt`: List of required packages.
+- `models/`: Contains the machine learning models.
+- `utils/`: Utility functions for data preprocessing.
+
+## Usage
+
+To use this project, follow these steps:
+
+1. Run the Streamlit app as described in the "Getting Started" section.
+2. Input patient data through the web interface.
+3. Click the "Predict Anemia" or "Predict Thrombocytopenia" buttons to get predictions.
+
+## Model Comparison
+
+-The project includes a model comparison to determine the best-fitting prediction model.
+-The accuracy scores of different models are compared and visualized using Matplotlib.
+
+## Contributing
+
+Contributions to this project are welcome. Feel free to submit issues, feature requests, or pull requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
