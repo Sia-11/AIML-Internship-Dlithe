@@ -10,7 +10,6 @@ Anemia & Thrombocytopenia Prediction is a Python project that aims to predict wh
 - [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Model Comparison](#model-comparison)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
@@ -62,10 +61,6 @@ To use this project, follow these steps:
 
 -The project includes a model comparison to determine the best-fitting prediction model.
 -The accuracy scores of different models are compared and visualized using Matplotlib.
-
-## Contributing
-
-Contributions to this project are welcome. Feel free to submit issues, feature requests, or pull requests.
 
 ## License
 
