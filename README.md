@@ -1,6 +1,7 @@
 # AIML-Internship-Dlithe:
-#Anemia & Thrombocytopenia Prediction
-#Overview
+Anemia & Thrombocytopenia Prediction
+
+Overview
 This project focuses on developing a machine learning-based solution for the prediction of two critical blood disorders: Anemia and Thrombocytopenia. Anemia is characterized by a lower-than-normal level of red blood cells or hemoglobin in the blood, while Thrombocytopenia is a condition with a low platelet count. Early and accurate detection of these disorders is crucial for timely medical intervention.
 
 #Key Features
