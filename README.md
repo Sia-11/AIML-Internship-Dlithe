@@ -1,1 +1,1 @@
-# AIML-Internship-Dlithe
+# AIML-Internship-Dlithe:Anemia & Thrombocytopenia Prediction
